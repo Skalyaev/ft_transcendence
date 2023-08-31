@@ -11,6 +11,6 @@ down:
 	docker compose down
 
 delete:
-	docker compose down	-v --rmi all
+	docker compose down -v --rmi all
 
 .PHONY: all start stop down delete
