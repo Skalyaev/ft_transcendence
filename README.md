@@ -1,6 +1,5 @@
 # Ft_transcendence
-"Soon, you will realize that you already know things
-that you thought you didn’t"
+"Soon, you will realize that you already know things that you thought you didn’t"
 
 No more C! No more C++!
 This project is about doing something you’ve never done before.
