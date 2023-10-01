@@ -4,9 +4,7 @@
         "type": "module",
         "main": "./srcs/index.jsx",
         "scripts": {
-                "start": "npm run dev",
-                "dev": "webpack serve --mode=development --open --config webpack.config.cjs",
-                "getIp": "sh ./ipconfig.sh"
+                "dev": "webpack serve --mode=development --open --config webpack.config.cjs"
         },
         "dependencies": {
                 "axios": "^1.4.0",

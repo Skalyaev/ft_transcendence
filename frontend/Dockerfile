@@ -4,7 +4,7 @@ COPY            ./files /transcendence/frontend
 
 WORKDIR         /transcendence/frontend
 
-RUN             npm install
-RUN             npm install process
+RUN             npm install &&  \
+                npm install process
 
-ENTRYPOINT      [ "npm", "run", "start" ]
+ENTRYPOINT      [ "npm", "run", "dev" ]

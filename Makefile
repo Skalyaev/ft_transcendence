@@ -1,16 +1,16 @@
-all:
-	docker compose up -d --build
+all:	start
 
 start:
-	docker compose up -d
+	docker-compose build
+	docker-compose up
 
 stop:
-	docker compose stop
+	docker-compose stop
 
 down:
-	docker compose down
+	docker-compose down
 
 delete:
-	docker compose down -v --rmi all
+	docker-compose down -v --rmi all
 
 .PHONY: all start stop down delete

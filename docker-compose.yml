@@ -1,4 +1,5 @@
 services:
+
   postgres_db:
     container_name: db
     image: postgres:latest
@@ -14,6 +15,7 @@ services:
       - .env
     networks:
       - tsd-net
+
   backend:
     container_name: backend
     image: backend_image
@@ -25,15 +27,14 @@ services:
       - 3000:3000
     networks:
       - tsd-net
+
   frontend:
     container_name: frontend
     image: frontend_image
     build: ./frontend
     restart: unless-stopped
     depends_on:
-      backend:
-        condition: service_healthy
-        restart: true
+      - backend
     ports:
       - 8080:8080
     networks:
