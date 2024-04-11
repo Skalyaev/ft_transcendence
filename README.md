@@ -4,7 +4,7 @@ Ce projet est quelque chose que vous n’avez jamais fait auparavant.
 Rappelez-vous du début de votre voyage en programmation. Regardez-vous maintenant. C’est le temps de briller !
 
 ## Preview
-![](https://media.githubusercontent.com/media/Skalyaeve/images-tmp/main/tsd.gif)
+![](https://media.githubusercontent.com/media/Skalyaeve/images-2/main/tsd.gif)
 
 ## Checklist
 - [x] User profile
