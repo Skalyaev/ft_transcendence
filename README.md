@@ -4,7 +4,7 @@ Ce projet est quelque chose que vous n’avez jamais fait auparavant.
 Rappelez-vous du début de votre voyage en programmation. Regardez-vous maintenant. C’est le temps de briller !
 
 ## Preview
-![](https://github.com/Skalyaeve/images/blob/main/screenshot/cub3d.gif)
+![](https://github.com/Skalyaeve/images/blob/main/screenshot/tsd.gif)
 
 ## Checklist
 - [x] User profile
