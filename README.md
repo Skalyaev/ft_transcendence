@@ -45,7 +45,7 @@ cd $name
     * FortyTwoClientID
     * FortyTwoSecret
 ```bash
-make
+sudo make
 # ca va prendre du temps
 # ensuite -> http://localhost:8080
 ```
