@@ -1,31 +1,30 @@
-# ft_transcendence
-Ce projet est quelque chose que vous n’avez jamais fait auparavant.
+# <p align="center">ft_transcendence</p>
+> *Ce projet est quelque chose que vous n’avez jamais fait auparavant.*
+>
+> *Rappelez-vous du début de votre voyage en programmation. Regardez-vous maintenant. Il est temps de briller !*
 
-Rappelez-vous du début de votre voyage en programmation. Regardez-vous maintenant. C’est le temps de briller !
-
-## Preview
+## Aperçu
 ![](https://media.githubusercontent.com/media/Skalyaeve/images-2/main/tsd.gif)
 
 ## Checklist
-- [x] User profile
-    * [x] 42 API login
-    * [x] 2FA
-    * [x] User infos management
-    * [x] Friends list
-    * [x] Match history
-    * [x] Achievements
-- [x] Leadboard
-- [x] Chat
-    * [x] Direct messages
-    * [x] Channel management
-- [x] Game
-    * [x] Matchmaking
-    * [x] Responsive
-    * [x] Spectator mode
-    * [x] Multiple characters
+- [x] Profil utilisateur
+   * Connexion via l'API 42
+   * 2FA
+   * Gestion de compte
+   * Liste d'amis
+   * Historique des matchs
+   * Achievements
+- [x] Classement
+- [x] Tchat
+   * Messages directs
+   * Canaux de discussion
+- [x] Jeu
+   * Matchmaking
+   * Réactif
+   * Mode spectateur
+   * Plusieurs personnages
 - [x] SQLi protected
 - [x] No crash
-
 
 ## Installer `42stud only`
 ```bash
@@ -41,17 +40,17 @@ name=ft_transcendence
 git clone https://github.com/$link.git $name
 cd $name
 ```
-- Recupère ta clé API 42.
+- Recupère ta clé API 42
 - Édite `backend/files/.env`:
     * FortyTwoClientID
     * FortyTwoSecret
 ```bash
 make
-# Ça va prendre un certain temps.
+# ca va prendre du temps
+# ensuite -> http://localhost:8080
 ```
-> http://localhost:8080
 
-## Uninstall
+## Désinstaller
 ```bash
 name=ft_transcendence
 
