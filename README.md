@@ -1,14 +1,12 @@
 # ft_transcendence
-> *Soon, you will realize that you already know things that you thought you didn’t*
+Ce projet est quelque chose que vous n’avez jamais fait auparavant.
 
-*This project is about creating a website for a mighty Pong contest!*
+Rappelez-vous du début de votre voyage en programmation. Regardez-vous maintenant. C’est le temps de briller !
 
-> No more C! No more C++!*
-> This project is about doing something you’ve never done before.*
-> Remind yourself the beginning of your journey in computer science.*
-> Look at you now. Time to shine!*
+## Preview
+![](https://github.com/Skalyaeve/images/blob/main/screenshot/cub3d.gif)
 
-## Checklists
+## Checklist
 - [x] User profile
     * [x] 42 API login
     * [x] 2FA
@@ -28,11 +26,35 @@
 - [x] SQLi protected
 - [x] No crash
 
-## Usage
-```sh
-git clone git@github.com:Skalyaeve/ft_transcendence.git
-cd ft_transcendence
-sudo make # then browse to http://localhost
-```
-> *Initial setup will take a while*
 
+## Installer `42stud only`
+```bash
+sudo apt update -y
+sudo apt install -y make
+sudo apt install -y docker.io
+sudo apt install -y docker-compose
+```
+```bash
+link=Skalyaeve/ft_transcendence
+name=ft_transcendence
+
+git clone https://github.com/$link.git $name
+cd $name
+```
+- Recupère ta clé API 42.
+- Édite `backend/files/.env`:
+    * FortyTwoClientID
+    * FortyTwoSecret
+```bash
+make
+# Ça va prendre un certain temps.
+```
+> http://localhost:8080
+
+## Uninstall
+```bash
+name=ft_transcendence
+
+cd $name && sudo make fclean
+rm -r $name
+```

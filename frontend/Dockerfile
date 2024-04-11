@@ -1,10 +1,10 @@
-FROM            node:bullseye-slim
+FROM node:bullseye-slim
 
-COPY            ./files /transcendence/frontend
+COPY ./files /transcendence/frontend
 
-WORKDIR         /transcendence/frontend
+WORKDIR /transcendence/frontend
 
-RUN             npm install &&  \
-                npm install process
+RUN npm install &&  \
+    npm install process
 
-ENTRYPOINT      [ "npm", "run", "dev" ]
+ENTRYPOINT [ "npm", "run", "dev" ]
