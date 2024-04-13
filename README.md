@@ -3,7 +3,7 @@
 >
 > *Rappelez-vous du début de votre voyage en programmation. Regardez-vous maintenant. Il est temps de briller !*
 
-## Aperçu
+## Preview
 ![](https://media.githubusercontent.com/media/Skalyaeve/images-2/main/tsd.gif)
 
 ## Checklist
@@ -26,7 +26,7 @@
 - [x] SQLi protected
 - [x] No crash
 
-## Installer `42stud only`
+## Install `42stud only`
 ```bash
 sudo apt update -y
 sudo apt install -y make
@@ -46,14 +46,15 @@ cd $name
     * FortyTwoSecret
 ```bash
 sudo make
-# ca va prendre du temps
+# ça va prendre du temps
 # ensuite -> http://localhost:8080
 ```
 
-## Désinstaller
+## Uninstall
 ```bash
 name=ft_transcendence
 
 cd $name && sudo make fclean
-rm -r $name
+rm -rf $name
 ```
+
