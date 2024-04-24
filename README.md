@@ -26,7 +26,7 @@
 - [x] SQLi protected
 - [x] No crash
 
-## Install `42stud only`
+## Usage `42stud only`
 ```bash
 sudo apt update -y
 sudo apt install -y make
@@ -34,11 +34,8 @@ sudo apt install -y docker.io
 sudo apt install -y docker-compose
 ```
 ```bash
-link=Skalyaeve/ft_transcendence
-name=ft_transcendence
-
-git clone https://github.com/$link.git $name
-cd $name
+git clone https://github.com/ft_transcendence.git
+cd ft_transcendence
 ```
 - Recupère ta clé API 42
 - Édite `backend/files/.env`:
@@ -48,13 +45,5 @@ cd $name
 sudo make
 # ça va prendre du temps
 # ensuite -> http://localhost:8080
-```
-
-## Uninstall
-```bash
-name=ft_transcendence
-
-cd $name && sudo make fclean
-rm -rf $name
 ```
 
