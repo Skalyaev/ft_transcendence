@@ -30,6 +30,7 @@
 ```bash
 sudo apt update -y
 sudo apt install -y make
+sudo apt install -y unzip
 sudo apt install -y docker.io
 sudo apt install -y docker-compose
 ```
@@ -42,8 +43,13 @@ cd ft_transcendence
     * FortyTwoClientID
     * FortyTwoSecret
 ```bash
+unzip backend.zip
+cd frontend/files/srcs/tsx
+unzip Chat.zip
+unzip Game.tsx.zip
+cd ../css && unzip Chat.zip
+cd ../../../..
 sudo make
 # ça va prendre du temps
 # ensuite -> http://localhost:8080
 ```
-
