@@ -5,6 +5,7 @@
 
 ## Preview
 ![](https://media.githubusercontent.com/media/Skalyaeve/images-2/main/tsd.gif)
+> L'image prend du temps à charger :)
 
 ## Checklist
 - [x] Profil utilisateur
