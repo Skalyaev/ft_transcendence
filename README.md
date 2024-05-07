@@ -44,11 +44,7 @@ cd ft_transcendence
     * FortyTwoSecret
 ```bash
 unzip backend.zip
-cd frontend/files/srcs/tsx
-unzip Chat.zip
-unzip Game.tsx.zip
-cd ../css && unzip Chat.zip
-cd ../../../..
+unzip frontend.zip
 sudo make
 # ça va prendre du temps
 # ensuite -> http://localhost:8080
