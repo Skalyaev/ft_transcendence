@@ -4,7 +4,7 @@
 > *Rappelez-vous du début de votre voyage en programmation. Regardez-vous maintenant. Il est temps de briller !*
 
 ## Preview
-![](https://media.githubusercontent.com/media/Skalyaeve/images-2/main/tsd.gif)
+![](https://media.githubusercontent.com/media/Skalyaeve/images-2/main/screenshot/tsd.gif)
 > L'image prend du temps à charger :)
 
 ## Checklist
